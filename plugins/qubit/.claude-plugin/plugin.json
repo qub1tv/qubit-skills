@@ -1,10 +1,18 @@
 {
   "name": "qubit",
+  "displayName": "Qubit Exchange",
   "version": "0.1.0",
   "description": "Qubit Exchange for Claude Code: Hyperliquid trading, X Layer liquidity with optional Hyperliquid hedges and on-chain automation, the funding farm, and transfers / swaps across 26 chains. Keys never leave your browser.",
   "author": {
-    "name": "Qubit Exchange"
+    "name": "Qubit Laboratory",
+    "url": "https://app.qubitexchange.net"
   },
+  "homepage": "https://app.qubitexchange.net",
+  "repository": "https://github.com/qub1tv/qubit-skills",
   "license": "MIT",
-  "keywords": ["defi", "hyperliquid", "x-layer", "uniswap", "liquidity", "hedge", "bridge", "trading"]
+  "keywords": ["defi", "hyperliquid", "x-layer", "uniswap", "liquidity", "hedge", "bridge", "trading"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://app.qubitexchange.net/docs",
+  "supportUrl": "https://github.com/qub1tv/qubit-skills/issues",
+  "privacyPolicyUrl": "https://app.qubitexchange.net/privacy"
 }

@@ -51,6 +51,10 @@ Opening, adding to and withdrawing a position cost no Qubit fee (gas only). LP a
 - The AI cannot sign anything. A stolen connector token can only propose actions; your tab executes them within the limits you set.
 - Treat every result as information, not advice. Liquidity positions can lose value against holding (impermanent loss); a hedge removes price direction, not that loss. Funding can turn negative.
 
+## Privacy
+
+The plugin only adds the MCP connection to `https://app.qubitexchange.net/mcp`; it runs no local code. What the service stores and shares is described in the privacy policy: https://app.qubitexchange.net/privacy. Support: [GitHub issues](https://github.com/qub1tv/qubit-skills/issues).
+
 ## License
 
 MIT
