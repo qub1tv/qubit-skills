@@ -1,0 +1,19 @@
+{
+  "name": "qubit",
+  "owner": {
+    "name": "Qubit Exchange"
+  },
+  "metadata": {
+    "description": "Qubit Exchange for AI agents: trade on Hyperliquid, provide and hedge liquidity on X Layer, move and swap tokens across 26 chains. No private keys: every action is signed by you in the Qubit tab."
+  },
+  "plugins": [
+    {
+      "name": "qubit",
+      "source": "./plugins/qubit",
+      "description": "Connects Claude Code to the Qubit Exchange MCP server (OAuth, no keys) and adds skills for LP + hedge, the funding farm and trading / moving funds.",
+      "version": "0.1.0",
+      "category": "finance",
+      "keywords": ["defi", "hyperliquid", "x-layer", "uniswap", "liquidity", "hedge", "bridge", "trading"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "qubit": {
+      "type": "http",
+      "url": "https://app.qubitexchange.net/mcp"
+    }
+  }
+}
